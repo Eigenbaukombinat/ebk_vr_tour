@@ -97,17 +97,241 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -12,
-                    "yaw": 170,
-                    "type": "info",
-                    "text": "This is Jordan Pond, located in Acadia National Park."
-                },
-                {
                     "pitch": 0.43,
                     "yaw": -81.66,
                     "type": "scene",
                     "text": "Hackspace",
                     "sceneId": "Hackspace"
+                },
+                {
+                    "pitch": 0.43,
+                    "yaw": 81.66,
+                    "type": "scene",
+                    "text": "Sozialraum (hinten)",
+                    "sceneId": "Sozialraumkueche"
+                },
+                {
+                    "pitch": 0.43,
+                    "yaw": 121.66,
+                    "type": "scene",
+                    "text": "Holzwerkstatt (vorne)",
+                    "sceneId": "Holz1"
+                }
+            ]
+        },
+
+        "Sozialraumkueche": {
+            "title": "Sozialraum (hinten)",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_sozialraumhinten",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7344
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.3,
+                    "yaw": 176.8,
+                    "type": "scene",
+                    "text": "Sozialraum (mitte)",
+                    "sceneId": "Sozialraumvorne"
+                }
+            ]
+        },
+
+        "Modellbau": {
+            "title": "Modellbau",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_modellbau",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7432
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.3,
+                    "yaw": 176.8,
+                    "type": "scene",
+                    "text": "Hackspace",
+                    "sceneId": "Hackspace"
+                }
+            ]
+        },
+
+        "Handarbeit": {
+            "title": "Handarbeit",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_handarbeit",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7472
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.3,
+                    "yaw": 176.8,
+                    "type": "scene",
+                    "text": "Hackspace",
+                    "sceneId": "Hackspace"
+                },{
+                    "pitch": -2.3,
+                    "yaw": 76.8,
+                    "type": "scene",
+                    "text": "Fotostudio",
+                    "sceneId": "Fotostudio"
+                }
+            ]
+        },
+
+        "Fotostudio": {
+            "title": "Fotostudio",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_fotostudio",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7440
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.3,
+                    "yaw": 176.8,
+                    "type": "scene",
+                    "text": "Handarbeit",
+                    "sceneId": "Handarbeit"
+                }
+            ]
+        },
+
+        "Holz1": {
+            "title": "Holzwerkstatt, vorderer Bereich",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_holz1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7464
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.3,
+                    "yaw": 176.8,
+                    "type": "scene",
+                    "text": "zum Sozialraum im OG",
+                    "sceneId": "Sozialraumvorne"
+                },{
+                    "pitch": -2.3,
+                    "yaw": 76.8,
+                    "type": "scene",
+                    "text": "Holzwerkstatt, hinterer Bereich",
+                    "sceneId": "Holz2"
+                }
+            ]
+        },
+
+        "Holz2": {
+            "title": "Holzwerkstatt, hinterer Bereich",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_holz2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7464
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.3,
+                    "yaw": 176.8,
+                    "type": "scene",
+                    "text": "Holzwerkstatt, vorderer Bereich",
+                    "sceneId": "Holz1"
+                },{
+                    "pitch": -2.3,
+                    "yaw": 76.8,
+                    "type": "scene",
+                    "text": "Metallwerkstatt rot",
+                    "sceneId": "Metall1"
+                }
+            ]
+        },
+
+        "Metall1": {
+            "title": "Metallwerkstatt rot",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_metall1",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7104
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.3,
+                    "yaw": 176.8,
+                    "type": "scene",
+                    "text": "Holzwerkstatt, hinterer Bereich",
+                    "sceneId": "Holz2"
+                },{
+                    "pitch": -2.3,
+                    "yaw": 76.8,
+                    "type": "scene",
+                    "text": "Metallwerkstatt schwarz",
+                    "sceneId": "Metall2"
+                }
+            ]
+        },
+
+        "Metall2": {
+            "title": "Metallwerkstatt schwarz",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_metall2",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7448
+            },
+            "hotSpots": [
+                {
+                    "pitch": -2.3,
+                    "yaw": 76.8,
+                    "type": "scene",
+                    "text": "Metallwerkstatt rot",
+                    "sceneId": "Metall1"
                 }
             ]
         }
