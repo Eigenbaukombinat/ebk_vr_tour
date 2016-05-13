@@ -1,0 +1,115 @@
+{
+    "default": {
+        "author": "Eigenbaukombinat",
+        "firstScene": "Sozialraumvorne",
+        "sceneFadeDuration": 2000,
+        "autoLoad": true,
+        "type": "multires",
+        "hotSpotDebug": true
+    },
+    
+    "scenes": {
+        "Hackspace": {
+            "title": "Hackspace",
+            "multiRes": {
+                "basePath": "./multires_hackspace",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7456
+            },        
+
+            "hotSpots": [
+                {
+                    "pitch": -14.4,
+                    "yaw": -150.9,
+                    "type": "info",
+                    "text": "Löt- und Messplatz"
+                },
+                {
+                    "pitch": -7.3,
+                    "yaw": -117.1,
+                    "type": "info",
+                    "text": "Elektroniksortiment"
+                },
+                {
+                    "pitch": -7.2,
+                    "yaw": -79.5,
+                    "type": "info",
+                    "text": "3D-Druck-Ecke"
+                },
+                {
+                    "pitch": -10.75,
+                    "yaw": -18.82,
+                    "type": "info",
+                    "text": "486-DX50"
+                },
+                {
+                    "pitch": -19.5,
+                    "yaw": 24.75,
+                    "type": "info",
+                    "text": "Folienplotter"
+                },
+                {
+                    "pitch": -18.45,
+                    "yaw": 0.9,
+                    "type": "info",
+                    "text": "Arcade-Machine"
+                },
+                {
+                    "pitch": -2.3,
+                    "yaw": 176.8,
+                    "type": "scene",
+                    "text": "Sozialraum",
+                    "sceneId": "Sozialraumvorne"
+                },
+                {
+                    "pitch": -1.93,
+                    "yaw": -59.84,
+                    "type": "scene",
+                    "text": "Handarbeit",
+                    "sceneId": "Handarbeit"
+                },
+                {
+                    "pitch": -1.85,
+                    "yaw": 39.3,
+                    "type": "scene",
+                    "text": "Modellbau",
+                    "sceneId": "Modellbau"
+                }
+            ]
+        },
+
+        "Sozialraumvorne": {
+            "title": "Sozialraum (mitte)",
+            "yaw": 83.68,
+            "pitch": -3.02,
+            "multiRes": {
+                "basePath": "./multires_sozialraumvorne",
+                "path": "/%l/%s%y_%x",
+                "fallbackPath": "/fallback/%s",
+                "extension": "jpg",
+                "tileResolution": 512,
+                "maxLevel": 5,
+                "cubeResolution": 7472
+            },
+            "hotSpots": [
+                {
+                    "pitch": -12,
+                    "yaw": 170,
+                    "type": "info",
+                    "text": "This is Jordan Pond, located in Acadia National Park."
+                },
+                {
+                    "pitch": 0.43,
+                    "yaw": -81.66,
+                    "type": "scene",
+                    "text": "Hackspace",
+                    "sceneId": "Hackspace"
+                }
+            ]
+        }
+    }
+}
