@@ -184,13 +184,13 @@
             "hotSpots": [
                 {
                     "pitch": -2.3,
-                    "yaw": 176.8,
+                    "yaw": 90,
                     "type": "scene",
                     "text": "Hackspace",
                     "sceneId": "Hackspace"
                 },{
-                    "pitch": -2.3,
-                    "yaw": 76.8,
+                    "pitch": -5.3,
+                    "yaw": 290,
                     "type": "scene",
                     "text": "Fotostudio",
                     "sceneId": "Fotostudio"
