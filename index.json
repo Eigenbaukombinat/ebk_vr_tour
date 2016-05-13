@@ -7,7 +7,7 @@
         "type": "multires",
         "hotSpotDebug": true
     },
-    
+
     "scenes": {
         "Hackspace": {
             "title": "Hackspace",
@@ -19,7 +19,7 @@
                 "tileResolution": 512,
                 "maxLevel": 5,
                 "cubeResolution": 7456
-            },        
+            },
 
             "hotSpots": [
                 {
@@ -112,7 +112,7 @@
                 },
                 {
                     "pitch": 0.43,
-                    "yaw": 121.66,
+                    "yaw": 325,
                     "type": "scene",
                     "text": "Holzwerkstatt (vorne)",
                     "sceneId": "Holz1"
@@ -238,13 +238,13 @@
             "hotSpots": [
                 {
                     "pitch": -2.3,
-                    "yaw": 176.8,
+                    "yaw": 65,
                     "type": "scene",
                     "text": "zum Sozialraum im OG",
                     "sceneId": "Sozialraumvorne"
                 },{
                     "pitch": -2.3,
-                    "yaw": 76.8,
+                    "yaw": 220,
                     "type": "scene",
                     "text": "Holzwerkstatt, hinterer Bereich",
                     "sceneId": "Holz2"
@@ -268,13 +268,13 @@
             "hotSpots": [
                 {
                     "pitch": -2.3,
-                    "yaw": 176.8,
+                    "yaw": 5,
                     "type": "scene",
                     "text": "Holzwerkstatt, vorderer Bereich",
                     "sceneId": "Holz1"
                 },{
                     "pitch": -2.3,
-                    "yaw": 76.8,
+                    "yaw": 270,
                     "type": "scene",
                     "text": "Metallwerkstatt rot",
                     "sceneId": "Metall1"
@@ -304,7 +304,7 @@
                     "sceneId": "Holz2"
                 },{
                     "pitch": -2.3,
-                    "yaw": 76.8,
+                    "yaw": 340,
                     "type": "scene",
                     "text": "Metallwerkstatt schwarz",
                     "sceneId": "Metall2"
@@ -328,7 +328,7 @@
             "hotSpots": [
                 {
                     "pitch": -2.3,
-                    "yaw": 76.8,
+                    "yaw": 355,
                     "type": "scene",
                     "text": "Metallwerkstatt rot",
                     "sceneId": "Metall1"
