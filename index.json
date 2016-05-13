@@ -84,7 +84,7 @@
 
         "Sozialraumvorne": {
             "title": "Sozialraum (mitte)",
-            "yaw": 83.68,
+            "yaw": 90,
             "pitch": -3.02,
             "multiRes": {
                 "basePath": "./multires_sozialraumvorne",
@@ -105,7 +105,7 @@
                 },
                 {
                     "pitch": 0.43,
-                    "yaw": 81.66,
+                    "yaw": 110.66,
                     "type": "scene",
                     "text": "Sozialraum (hinten)",
                     "sceneId": "Sozialraumkueche"
@@ -136,7 +136,7 @@
             "hotSpots": [
                 {
                     "pitch": -2.3,
-                    "yaw": 176.8,
+                    "yaw": 270.8,
                     "type": "scene",
                     "text": "Sozialraum (mitte)",
                     "sceneId": "Sozialraumvorne"
