@@ -114,7 +114,7 @@
                     "pitch": 0.43,
                     "yaw": 325,
                     "type": "scene",
-                    "text": "Holzwerkstatt (vorne)",
+                    "text": "zur Holzwerkstatt im EG",
                     "sceneId": "Holz1"
                 }
             ]
@@ -213,8 +213,8 @@
             },
             "hotSpots": [
                 {
-                    "pitch": -2.3,
-                    "yaw": 176.8,
+                    "pitch": -1.71,
+                    "yaw": -124.8,
                     "type": "scene",
                     "text": "Handarbeit",
                     "sceneId": "Handarbeit"
